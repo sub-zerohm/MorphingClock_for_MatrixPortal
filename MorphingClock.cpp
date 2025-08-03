@@ -59,10 +59,7 @@ time_t prevDisplay = 0;         // when the Digital clock was displayed
 
 
 //=== PREFERENCES ===
-String credentials[][2] = {
-  { "SSID", "SSDPassword" },
-  { "OptionalOtherSSID", "OptionalOtherSSDPassword" },
-};
+#include "arduino_secrets.h"
 const bool SHOW_24HOUR = false;
 
 // Info about these settings at https://github.com/JChristensen/Timezone#coding-timechangerules
